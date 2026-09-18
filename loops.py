@@ -18,18 +18,19 @@ def doubleSquares(iRange):
         t.right(5)
 doubleSquares(60) """
 
+
 def triangle(x,y):
-    for i in range(4):
+    for i in range(5):
         t.forward(x)
         t.left(y)
-triangle(7,120)
+triangle(5,144)
 
 def doubleTriangle(iRange):
-    length = 5
+    length = 8
     for i in range(iRange):
-        triangle(length, 120)
+        triangle(length, 144)
         length = length * 1.07
-        t.left(75)
+        t.right(5)
 doubleTriangle(60)
 
 
@@ -62,3 +63,27 @@ doubleTriangle(60)
 
 
 turtle.done()
+
+""" 
+#string for characters
+name = "Aiden"
+print(name.lower().capitalize())
+#input asks the user a question and records the answer
+#what we write in input argument is what users sees
+#input always outputs a string
+bill = int(input("how much was the bill"))
+print(bill)
+
+if bill ==10:
+    print("match")
+else:
+    print("no match")
+#integer for whole number
+amt = 100
+#float uses decimal
+amt = 99.99
+
+#boolean
+x = True
+y = False
+ """
